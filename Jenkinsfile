@@ -25,7 +25,7 @@ v1.3''', description: 'What to deploy?')
         }
       }
       steps {
-        echo "Deploying ${APP_VERSION}."
+        echo "Deploying: ${APP_VERSION}."
       }
     }
   }
